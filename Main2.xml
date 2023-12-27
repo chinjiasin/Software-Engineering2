@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainsea"
+    tools:context="Main">
+
+    <TextView
+        android:id="@+id/coco2"
+        android:layout_width="413dp"
+        android:layout_height="62dp"
+        android:background="#6A6056"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/tableicon"
+        android:layout_width="214dp"
+        android:layout_height="208dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Table button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755"
+        app:srcCompat="@drawable/table" />
+
+    <TextView
+        android:id="@+id/tabletext"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:background="#D9D9D9"
+        android:text="       Reserve a table"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <ImageButton
+        android:id="@+id/FoodButton"
+        android:layout_width="214dp"
+        android:layout_height="208dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Food button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@drawable/egg" />
+
+    <TextView
+        android:id="@+id/foodtext"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:background="#D9D9D9"
+        android:text="       Food Booking"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/coco"
+        android:layout_width="413dp"
+        android:layout_height="62dp"
+        android:background="#6A6056"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mermaidtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mermaid Kitchen"
+        android:textColor="#D9D9D9"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageButton
+        android:id="@+id/icon"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:scaleType="fitXY"
+        android:contentDescription="mermaid icon button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img" />
+
+    <ImageButton
+        android:id="@+id/settingbutton"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:contentDescription="Setting button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/baseline_settings_24" />
+
+    <ImageButton
+        android:id="@+id/historybutton"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:contentDescription="History button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_history_24" />
+
+    <TextView
+        android:id="@+id/historytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="#D9D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/coco2"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/settingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textColor="#D9D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/settingbutton"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
